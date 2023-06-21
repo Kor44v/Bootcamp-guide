@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs justify-content-center mb-5" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sign up</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">VIP</button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="row justify-content-center">
+                    <div class="col-3 ">
+                        <div class="text-justify">
+                            <p>Complete los siguientes campos para crear su cuenta regular. Considere que a este tipo de cuenta se le asigna un nombre de usuario</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <form action="" id="form">
+                            <div class="mb-3">
+                                <label for="mail" class="form-label">Correo</label>
+                                <input type="email" class="form-control rounded-pill" id="mail" placeholder="Ingresa tu correo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="psw" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control rounded-pill" id="psw" placeholder="Ingresa tu contraseña">
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Acepto los términos y condiciones.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary rounded-pill w-100">SING UP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                <section class="">
+                    <div class="row justify-content-center">
+                        <div class="col-3 ">
+                            <div class="text-justify">
+                                <p>Complete los siguientes campos para crear su cuenta VIP. Por ser un usuario VIP, podrá crear su nombre de usuario personalizado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <form action="" id="form1">
+                                <div class="mb-3">
+                                    <label for="name1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control rounded-pill" id="name1" placeholder="Ingresa tu nombre de usuario">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mail1" class="form-label">Correo</label>
+                                    <input type="email" class="form-control rounded-pill" id="mail1" placeholder="Ingresa tu correo">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="psw1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control rounded-pill" id="psw1" placeholder="Ingresa tu contraseña">
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input " type="checkbox" value="" id="check1">
+                                    <label class="form-check-label" for="check1">
+                                        Acepto los términos y condiciones.
+                                    </label>
+                                </div>
+                                <button class="btn btn-primary rounded-pill w-100">SING UP</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

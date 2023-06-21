@@ -1,0 +1,110 @@
+.button {
+  background-color: rgb(254, 87, 34);
+  border-radius: 5px;
+  border: 0;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #FAA05A;
+  font-size: 14px;
+  margin-top: 4rem;
+  width: 100%;
+  margin-right: 0;
+}
+.footer__item {
+  display: block;
+  float: right;
+  margin-right: 1rem;
+}
+
+.navigation {
+  display: inline-block;
+  width: 100%;
+  background-color: #FAA05A;
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.navigation__link {
+  margin-right: 4rem;
+}
+.navigation__link--tienda {
+  font-size: 20px;
+}
+.navigation__link--inicio {
+  font-size: 18px;
+}
+.navigation__carrito {
+  float: right;
+  padding-right: 2rem;
+}
+
+.novedades {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.novedades__title {
+  font-size: 22px;
+  font-family: Verdana Bold;
+  padding-left: 1rem;
+}
+
+.novedades__card {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.novedades__card img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 1px black;
+  margin: 0 auto;
+}
+
+.button {
+  width: 100%;
+}
+
+.ofertas {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ofertas__title {
+  font-size: 22px;
+  font-family: Verdana Bold;
+  padding-left: 1rem;
+}
+
+.ofertas__card {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.ofertas__card img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 1px black;
+  margin: 0 auto;
+}
+
+.button {
+  width: 100%;
+}
+
+html, body {
+  font-family: Verdana;
+  margin: 0;
+  background: #FAE85A;
+}
+
+/*# sourceMappingURL=main.css.map */

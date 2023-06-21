@@ -1,0 +1,22 @@
+.custom{
+    margin-right: 0.9375rem;
+    padding-right: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+.bg-custom{
+    background-image: url('../img/istockphoto-148347275-612x612.jpg');
+    background-position: left;
+}
+.form-check{
+    position:relative;
+}
+.span1{
+    position: absolute;
+    left: 55%;
+}
+.span0{
+    position: absolute;
+    left: 41%;
+}

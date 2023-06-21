@@ -1,0 +1,23 @@
+.ofertas{
+    width: 100%;
+    margin: 0 auto;
+}
+.ofertas__title{
+    font-size: $fs-novedades;
+    font-family: $font-n;
+    padding-left: 1rem;
+}
+.ofertas__card{
+    display: inline-block;
+    img{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 0px 12px 1px (black);
+        margin: 0 auto;
+    }
+    margin: 0.5rem;
+}
+.button{
+    width: 100%;
+}

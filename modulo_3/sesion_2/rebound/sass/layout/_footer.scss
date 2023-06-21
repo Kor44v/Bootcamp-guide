@@ -1,0 +1,16 @@
+.footer{
+    height: 3rem;
+    line-height: 3rem;
+    background-color: $color-e;
+    font-size: $fs-zapatos;
+    margin-top: 4rem;
+    width: 100%;
+    margin-right: 0;
+
+
+    &__item{
+        display: block;
+        float: right;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    float: left;
+}
+form input{
+    width: 100%;
+    margin-bottom: 0.625rem;
+}
+form button{
+    margin-top: 0.3125rem ;
+}

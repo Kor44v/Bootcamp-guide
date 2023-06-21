@@ -1,0 +1,57 @@
+.chat{
+    &__avatar{
+        height: 100px;
+        // box-shadow: 0 0 2px black;
+    }
+    &__img{
+        border-radius: 50%;
+    }
+    &__text{
+        background-color: #ccc;
+    }
+    background-image: url("../../img/iso-republic-abstract-wallpaper-soft-blur.jpg");
+}
+.emisor_cont{
+    display: flex;
+    justify-content: flex-end;
+}
+.emisor{
+    display: flex;
+    justify-content:flex-end;
+    width:50%;
+    border-radius: 10px;
+    background-color: #69d75f;
+    margin-bottom: 10px;
+    color: white;
+
+
+    &__text{
+        padding: 0.625rem;
+
+    }
+}
+.receptor{
+    display: flex;
+    align-items:flex-end;
+    text-align: start;
+    width: 50%;    
+    color: antiquewhite;
+    background-color: #5467f1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    &__text{
+        padding: 0.625rem;
+    }
+}
+
+.hora{
+    display: flex;
+    align-items: flex-end;
+    padding: 0.625rem;
+}
+.link-active{
+    background-color: #ccc;
+    font-weight: bold;
+
+}

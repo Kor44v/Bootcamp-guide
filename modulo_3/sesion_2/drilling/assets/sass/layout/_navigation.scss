@@ -1,0 +1,17 @@
+.header{
+    background-color: $nav-color;
+    width: 100%;
+}
+.navigation{
+    display: inline-block;
+    width: 100%;
+    a{
+        margin-right:114px;
+        text-decoration: none;
+        color: rgb(240, 237, 233);    
+        
+    }
+}
+.title{
+    text-align: center;
+}

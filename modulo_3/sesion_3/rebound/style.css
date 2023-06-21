@@ -1,0 +1,43 @@
+.cuadro1{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index:5;
+}
+.cuadro2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red ;
+    left: 0%;
+    bottom:75%;
+    z-index: 6;
+}.cuadro3{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: green ;
+    left: 75%;
+    bottom:100%;
+    z-index: 7;
+}.cuadro4{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue ;
+    right: 0%;
+    bottom:125%;
+    z-index: 8;
+}.cuadro5{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: yellow ;
+    right: 75%;
+    bottom: 300%;
+    z-index: 4;
+}

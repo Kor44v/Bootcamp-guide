@@ -1,0 +1,50 @@
+@keyframes drive{
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(110vw);
+    }
+}
+@keyframes nube-move {
+    from{right: -10vw}
+    to{right: 110vw;}
+}
+
+.entorno{
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+    margin:0;
+}
+.grass, .cielo{
+    position: relative;
+}
+.perro{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: -50%;
+    left:-250px;
+    animation: drive 3s linear infinite;
+}
+
+.gato{
+    width:100px;
+    position: relative;
+    bottom:-50%;
+    animation: drive 3s linear infinite;
+}
+.cielo{
+    height: 40%;
+    background-color: skyblue;
+}
+.pasto{
+    height: 60%;
+    background-color: seagreen;
+}
+.nube{
+    position: absolute;
+    right:0;
+    animation: nube-move 3s linear infinite;
+}

@@ -1,0 +1,35 @@
+.navigation{
+    display: inline-block;
+    width: 100%;
+    background-color: $color-e;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    &__link{
+        margin-right: 4rem;
+    }
+    &__link--tienda{
+        font-size: $fs-tienda;
+    }
+    &__link--inicio{
+        font-size: $fs-inicio;
+    }
+
+    
+    &__carrito{
+        float: right;
+        padding-right: 2rem;
+        
+    }
+
+}
